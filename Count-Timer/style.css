@@ -1,0 +1,49 @@
+body {
+    background: #f0f7fc;
+    font-family: 'Cookies';
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    max-width: 500px;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.counter-txt {
+    font-size: 30px;
+    color: #132531;
+    display: flex;
+    justify-content: center;
+}
+
+.counter-value {
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.counter-options {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px;
+    color: #132531;
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid #132531;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    color: #f0f7fc;
+    background-color: #132531;
+    transition: all 1 ease;
+}
